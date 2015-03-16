@@ -1,7 +1,7 @@
 package mtproto_test
 
 import (
-	"github.com/onrik/gomtproto"
+	"github.com/onrik/gomtproto/mtproto"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
