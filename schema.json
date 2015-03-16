@@ -1,10 +1,5 @@
 {
     "constructors": [{
-        "id": "481674261",
-        "predicate": "vector",
-        "params": [],
-        "type": "Vector t"
-    }, {
         "id": "85337187",
         "predicate": "resPQ",
         "params": [{

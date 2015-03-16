@@ -2,9 +2,7 @@ package mtproto
 
 import (
 	"encoding/json"
-	"log"
 	"os"
-	"strconv"
 )
 
 type Param struct {
@@ -60,8 +58,8 @@ func LoadSchema(filename string) error {
 	}
 
 	for _, c := range temp.Constructors {
-		schema.Constructors[c.Id] = &c
-		schema.Constructors[c.Type] = &c
+		schema.ConstructorsId[c.Id] = &c
+		schema.ConstructorsType[c.Type] = &c
 	}
 
 	for _, m := range temp.Methods {
